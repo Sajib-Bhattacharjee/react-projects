@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.heading {
+  background-color: indigo;
+  text-align: center;
+  font-weight: bolder;
+  margin: 0 auto;
+  color: white;
+  padding: 5px 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin-top: 10px;
+}
+
+.card {
+  width: 240px;
+  background-color: coral;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  margin: 5px;
+}
+
+.cardTitle {
+  text-align: center;
+  background-color: black;
+  border-radius: 4px;
+}
+
+.cardDescription {
+  background-color: yellowgreen;
+  padding: 4px;
+  font-size: 10px;
+}
+
+.cardFooter {
+  font-size: 10px;
+  text-align: center;
+  padding: 5px;
+  background-color: brown;
+  border-radius: 10px;
+}
+.icons {
+  font-size: 2rem;
+  color: indianred;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formGroup {
+  margin-bottom: 10px;
+}
