@@ -1,0 +1,15 @@
+.icon {
+  font-size: 2rem;
+  color: purple;
+}
+.icon__container {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+}
+.btn__for-setState {
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
